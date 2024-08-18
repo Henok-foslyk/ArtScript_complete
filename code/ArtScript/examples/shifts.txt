@@ -1,0 +1,2 @@
+setlocation 10 390
+repeat 4 (go 50 gold shift 10 right)

@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/codetests/codetests.fsproj": {}
+  },
+  "projects": {
+    "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/ArtScript.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/ArtScript.fsproj",
+        "projectName": "ArtScript",
+        "projectPath": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/ArtScript.fsproj",
+        "packagesPath": "/Users/Henok-HQ/.nuget/packages/",
+        "outputPath": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Henok-HQ/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/8.0.101/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.101, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/codetests/codetests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/codetests/codetests.fsproj",
+        "projectName": "codetests",
+        "projectPath": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/codetests/codetests.fsproj",
+        "packagesPath": "/Users/Henok-HQ/.nuget/packages/",
+        "outputPath": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/codetests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Henok-HQ/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/8.0.101/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/ArtScript.fsproj": {
+                "projectPath": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/ArtScript.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.101, )",
+              "generatePathProperty": true
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.4, )",
+              "generatePathProperty": true
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )",
+              "generatePathProperty": true
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

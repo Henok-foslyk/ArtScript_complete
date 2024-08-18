@@ -1,0 +1,11 @@
+setlocation 20 380
+
+repeat 18 (
+go 360 purple
+toright
+go 10 white
+toright
+go 360 gold
+toleft
+go 10 white
+toleft )

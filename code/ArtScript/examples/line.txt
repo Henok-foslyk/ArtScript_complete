@@ -1,0 +1,5 @@
+setlocation 10 390
+repeat 7 ( go 50 green toright go 50 green toleft )
+
+setlocation 10 340
+repeat 6 ( go 50 blue toright go 50 blue toleft )

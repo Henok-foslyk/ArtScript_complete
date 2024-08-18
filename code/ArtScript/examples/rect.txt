@@ -1,0 +1,6 @@
+setlocation 10 10
+rect 200 200 yellow yellow
+setlocation 50 50
+rect 100 100 gold gold
+setlocation 70 70
+rect 50 50 none yellow

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QDcyT0gMiXqF8E5NuyXDm2UrOaPFdcSvgTH7rEELWKkGnAdj9z2xLYz9sB21/HJRyGVkHwOHDH55oEziVoRU6A==",
+  "success": true,
+  "projectFilePath": "/Users/Henok-HQ/Desktop/CS/CS334/prac/projprac/code/ArtScript/ArtScript.fsproj",
+  "expectedPackageFiles": [
+    "/Users/Henok-HQ/.nuget/packages/fsharp.core/8.0.101/fsharp.core.8.0.101.nupkg.sha512"
+  ],
+  "logs": []
+}

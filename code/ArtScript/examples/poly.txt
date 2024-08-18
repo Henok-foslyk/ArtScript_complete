@@ -1,0 +1,7 @@
+setlocation 500 500
+
+poly blue green
+     350 75  
+     379 161 
+     100 900
+     
